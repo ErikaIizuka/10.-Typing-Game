@@ -1,8 +1,5 @@
-
 document.onkeydown = typeGame;  //Call for typeGame() when a key is pressed
     
-
-
 //An array to store alphabets
 var moji = new Array("Ａ","Ｂ","Ｃ","Ｄ","Ｅ","Ｆ","Ｇ","Ｈ","Ｉ",
                      "Ｊ","Ｋ","Ｌ","Ｍ","Ｎ","Ｏ","Ｐ","Ｑ","Ｒ",
@@ -17,16 +14,10 @@ var kcode = new Array(65,66,67,68,69,70,71,72,73,
 var rnd = new Array();
 
 
-
-
-
 //global variables
 var mondai = "";       //Store the alphabets in the problem
 var cnt=0;             //Stores which alpha the user is at
 var typStart,typEnd;   //Stores the time of starting and ending
-
-
-
 
 
 //A function to generate 200 random numbers from 0-25 and store them in the array
